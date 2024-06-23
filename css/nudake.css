@@ -1,0 +1,45 @@
+main{height: calc(100vh - 150px);}
+.banner{
+    height: 500px;
+    position: relative;
+}
+
+.banner > h3{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    font-family: "Melting";
+    color: #fff;
+    letter-spacing: 10px;
+}
+.sec_img_nuda{
+    width: 100%;
+    background: url(../img/main_banner/13.jpg)bottom / cover;
+}
+.sec_img_tem{
+    width: 100%;
+    background: url(../img/tamb.jpg)bottom / cover;
+}
+.sec_img_gent{
+    width: 100%;
+    background: url(../img/gent.jpg)bottom / cover;
+}
+
+.sec_box{
+    margin: 30px;
+    height: 100%;
+}
+
+.sec_box > h3{
+   font-size:50px;
+   font-family: "GmarketSansTTFLMedium";
+}
+.p_set{
+    font-size: 20px;
+    margin: 50px 0;
+    font-family: "GmarketSansTTFLight";
+    line-height: 40px;
+    text-align: justify;
+}

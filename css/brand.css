@@ -1,0 +1,64 @@
+#wrap{
+    position: relative;
+    height: 100vh;
+    max-width: 480px;
+}
+.box {
+    width: 100%;
+    height: calc(100%/2);    
+    position: absolute;
+    left: 0;
+}
+#box1 {
+    top: 0;
+    background: url('../img/brand_banner1.jpg') no-repeat left / cover  ;
+    
+}
+#box2 {
+    top: 30%;
+    background: url('../img/brand_banner2.jpg') no-repeat left  / cover;
+}
+#box3 {
+    bottom: 0;
+    background: url('../img/brand_banner3.jpg') no-repeat left/ cover ;
+    height: 35%;
+} 
+a:hover > .bg_b{
+    opacity: 1;
+}
+.bg_b{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 80, 80, 0.4);
+    /* opacity: 0; */
+    transition: all 1s;
+    
+}
+.brand_name{
+    font-size: 50px;
+    font-family: "Melting";
+    
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.brand_set{
+    font-size: 16px;
+    font-family: "GmarketSansTTFLight";
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+#box2 .bg_b .brand_name{
+    top: 20%;
+}
+#box2 .bg_b .brand_set{
+    top: 40%;
+}
+#box3 .bg_b .brand_name{
+    top: 25%;
+}
+#box3 .bg_b .brand_set{
+    top: 50%;
+}

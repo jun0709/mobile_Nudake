@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/login.css">
+   
+</head>
+<body>
+    <div id="wrap">
+        <div id="login_outer">
+            <div class="login_box">
+                <div class="closeBtn" id="closeBtn">X</div>
+                <span>login</span>
+                <div class="input_box">
+                    <div><input type="text" placeholder="아이디"></div>
+                    <div><input type="password" placeholder="비밀번호"></div>
+                </div>
+                <div class="button_box">
+                    <input type="button" value="로그인">
+                    <input type="button" value="회원가입" id="sign_btn">
+                </div>
+            </div>
+        </div>
+        <div id="Sign_outer">
+            <div class="Sign_box">
+                <div class="closeBtn" id="closeBtn1">X</div>
+                <span>Sign</span>
+                <div class="input_box">
+                    <div><input type="text" placeholder="아이디"></div>
+                    <div><input type="password" placeholder="비밀번호"></div>
+                    <div><input type="password" placeholder="비밀번호 확인"></div>
+                    <div><input type="email" placeholder="이메일"></div>
+                    <div><input type="text" placeholder="성명"></div>
+                </div>
+                <div class="button_box">
+                    <input type="button" value="가입">
+                    <input type="button" value="취소" id="cancel">
+                </div>
+            </div>
+        </div>
+    
+        <header class="m_header">
+            <div class="wrap_w">
+                <a href="index.html">
+                    <div class="logo"></div>
+                </a>
+                <div class="m_header_btn">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+    
+    
+            </div>
+            <div class="menu_view">
+                <div class="view_h">
+                    <a href="index.html">
+                        <div class="view_logo"></div>
+                    </a>
+                    <div class="close_btn">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <ul class="header_ul">
+                    <li><a href="brand.html">Brand</a></li>
+                    <li><a href="product.html">Menu</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+                <ul class="user">
+                    <li id="login"><a href="#">Login</a></li>
+                    <li id="Sign"><a href="#">Sign in</a></li>
+                </ul>
+    
+                <div class="sns_btn">
+                    <div class="sns_logo">
+                        <a href="https://www.instagram.com/nu_dake/?hl=ko"><img src="./img/w_insta.png" alt="인스타로고"></a>
+                    </div>
+                    <div class="sns_logo">
+                        <a href="https://www.facebook.com/p/Nudake-100064387941348/?locale=ko_KR"><img
+                                src="./img/w_face.png" alt="페이스북로고"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main_menu">
+            <ul class="menu_txt">
+                <li class="menu_txt_li"><a href="#"><img src="./img/nudake_logo.png" alt="로고">하우스 도산 & 성 수</a></li>
+                <li class="menu_txt_li"><a href="#"><img src="./img/nudake_logo.png" alt="로고">신 사</a></li>
+            </ul>
+            <div class="item_list">
+                <div class="item_img_sec item_img_sec_act">
+                    <div class="item_flex">
+                        <!-- 
+                                                <div class="item_img">
+                                                    <img src="" alt="">
+                                                    <li class="product_pan_li">
+                                                        <span>menu</span>
+                                                        <span>price</span>
+                                                    </li>
+                                                </div>
+                                                -->
+                    </div>
+                </div>
+                <div class="item_img_sec">
+                    <div class="item_flex">
+                        <!-- 
+                                                <div class="item_img">
+                                                   <div class="img_box">
+                                                     <img src="" alt="">
+                                                   </div>
+                                                    <li class="product_pan_li">
+                                                        <span>menu</span>
+                                                        <span>price</span>
+                                                    </li>
+                                                </div>
+                                                -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="fo1">
+                <div class="logo fologo"></div>
+            </div>
+            <div class="fo2">
+                <span>대표자 : 성준혁</span><br><br>
+                <span>대표번호 : 010-5463-5938</span><br><br>
+                <span>이메일 : tjdwnsgur7@naver.com</span>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/login.js"></script>
+    <script src="./js/item.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/header.js"></script>
+
+</body>
+</html>
